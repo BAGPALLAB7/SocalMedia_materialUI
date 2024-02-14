@@ -1,0 +1,11 @@
+.MuiCardMedia-img
+{
+    object-fit: cover;
+    
+}
+.MuiCardMedia-img:hover
+{
+    
+    object-fit: fill;
+
+}
