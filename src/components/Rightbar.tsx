@@ -28,7 +28,7 @@ const Rightbar = () => {
           cols={3}
           rowHeight={121}
         >
-          {recipes.map((item) => (
+          {recipes.map((item: any) => (
             <ImageListItem key={item.id} cols={ 1} rows={  1}>
               <img
                 src={item.image}
